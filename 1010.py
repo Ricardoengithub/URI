@@ -1,0 +1,5 @@
+one = input()
+two = input()
+one = one.split()
+two = two.split()
+print("VALOR A PAGAR: R$ {:.2f}".format((float(one[1]) * float(one[2])) + (float(two[1]) * float(two[2]))))
