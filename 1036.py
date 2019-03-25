@@ -5,6 +5,8 @@ def Fgeneral1(a,b,c):
 		return x
 	except ValueError:
 		return False
+	except ZeroDivisionError:
+		return False
 		
 def Fgeneral2(a,b,c):
 	try:
@@ -12,6 +14,8 @@ def Fgeneral2(a,b,c):
 		return x
 	except ValueError:
 		return False
+	except ZeroDivisionError:
+		return False		
 		
 line = input()
 line = line.split()
